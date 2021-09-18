@@ -1,5 +1,10 @@
+package obj;
+
+import lombok.Getter;
+
 import java.math.BigDecimal;
 
+@Getter
 public class Product {
     private int id;
     private String title;
